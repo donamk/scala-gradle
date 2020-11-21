@@ -1,2 +1,12 @@
 *.class
 *.log
+
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore IntelliJ
+.idea
+
+# Ignore Gradle build output directory
+build
